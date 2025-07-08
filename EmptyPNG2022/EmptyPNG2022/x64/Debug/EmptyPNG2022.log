@@ -1,0 +1,21 @@
+﻿  Sprite.cpp
+C:\Users\Daniel\Desktop\EmptyPNG2022\Sprite.cpp(79,25): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glutReshapeFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+main.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+Sprite.obj : error LNK2019: unresolved external symbol png_set_sig_bytes referenced in function "public: void __cdecl Sprite::initWithFile(char const *)" (?initWithFile@Sprite@@QEAAXPEBD@Z)
+Sprite.obj : error LNK2019: unresolved external symbol png_create_read_struct referenced in function "public: void __cdecl Sprite::initWithFile(char const *)" (?initWithFile@Sprite@@QEAAXPEBD@Z)
+Sprite.obj : error LNK2019: unresolved external symbol png_create_info_struct referenced in function "public: void __cdecl Sprite::initWithFile(char const *)" (?initWithFile@Sprite@@QEAAXPEBD@Z)
+Sprite.obj : error LNK2019: unresolved external symbol png_destroy_read_struct referenced in function "public: void __cdecl Sprite::initWithFile(char const *)" (?initWithFile@Sprite@@QEAAXPEBD@Z)
+Sprite.obj : error LNK2019: unresolved external symbol png_init_io referenced in function "public: void __cdecl Sprite::initWithFile(char const *)" (?initWithFile@Sprite@@QEAAXPEBD@Z)
+Sprite.obj : error LNK2019: unresolved external symbol png_get_rowbytes referenced in function "public: void __cdecl Sprite::initWithFile(char const *)" (?initWithFile@Sprite@@QEAAXPEBD@Z)
+Sprite.obj : error LNK2019: unresolved external symbol png_get_rows referenced in function "public: void __cdecl Sprite::initWithFile(char const *)" (?initWithFile@Sprite@@QEAAXPEBD@Z)
+Sprite.obj : error LNK2019: unresolved external symbol png_get_IHDR referenced in function "public: void __cdecl Sprite::initWithFile(char const *)" (?initWithFile@Sprite@@QEAAXPEBD@Z)
+Sprite.obj : error LNK2019: unresolved external symbol png_read_png referenced in function "public: void __cdecl Sprite::initWithFile(char const *)" (?initWithFile@Sprite@@QEAAXPEBD@Z)
+GL\freeglutd.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Daniel\Desktop\EmptyPNG2022\x64\Debug\EmptyPNG2022.exe : fatal error LNK1120: 17 unresolved externals
